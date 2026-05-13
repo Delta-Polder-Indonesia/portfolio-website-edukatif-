@@ -43,7 +43,12 @@ git push -u origin main
   />
 </p>
 
-### setting ➨ pages ➨ github action
+Enable GitHub Pages:
+
+1. Buka repository di GitHub
+2. Settings → Pages
+3. Source: Build and deployment → GitHub Actions
+4. Save
 ---
 ## 📁 Struktur Folder Github Pages
 ```
