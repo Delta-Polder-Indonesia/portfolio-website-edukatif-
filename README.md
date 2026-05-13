@@ -12,6 +12,46 @@
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-11-0055FF?logo=framer)
 
 ---
+## 🚀 Cara Deploy (3 Langkah)
+### Step 1: Buat Repository di GitHub
+```typescript
+# Di GitHub.com
+1. Klik "+" → "New repository"
+2. Nama: portfolio
+3. Public/Private
+4. Create repository
+```
+### Step 2: Push Code ke GitHub
+```typescript
+# Initialize git
+git init
+git add .
+git commit -m "Initial commit: Modern Portfolio v2.0"
+
+# Connect ke GitHub (ganti YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/portfolio.git
+git branch -M main
+git push -u origin main
+```
+### Step 3: Deploy ke GitHub Pages
+<p align="center">
+  <img 
+    src="./public/images/ContentManager/content.png" 
+    width="1000"
+    height="250"
+    style="object-fit: cover;"
+  />
+</p>
+
+### setting ➨ pages ➨ github action
+---
+## 📁 Struktur Folder Github Pages
+```
+📂 .github
+└── 📂 workflows
+     └── 📄 deploy.yml
+```
+---
 
 ## 🎬 Animasi Advanced (BARU!)
 
@@ -150,8 +190,6 @@ public/images/
 | **clsx + tailwind-merge** | Class Utility | Menggabungkan class CSS secara kondisional |
 
 ---
-
-## 📁 Struktur Folder
 
 ```
 portfolio/
