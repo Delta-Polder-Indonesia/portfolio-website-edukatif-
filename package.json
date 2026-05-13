@@ -1,0 +1,71 @@
+{
+  "name": "modern-portfolio-advanced",
+  "version": "2.0.0",
+  "description": "Portfolio website modern dengan animasi advanced level SEGESTA/PowerPoint. Dibangun dengan React, TypeScript, Tailwind CSS, dan Framer Motion.",
+  "author": {
+    "name": "Alex Pratama",
+    "email": "alex@portfolio.dev",
+    "url": "https://github.com/yourusername"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/modern-portfolio-advanced.git"
+  },
+  "homepage": "https://yourusername.github.io/modern-portfolio-advanced/",
+  "bugs": {
+    "url": "https://github.com/yourusername/modern-portfolio-advanced/issues"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "framer-motion",
+    "responsive",
+    "modern",
+    "animation",
+    "github-pages",
+    "vite"
+  ],
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write \"src/**/*.{ts,tsx,css,md}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.14.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "tailwind-merge": "3.4.0",
+    "terser": "^5.31.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.17",
+    "@types/node": "22.19.17",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "eslint": "^9.0.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.0",
+    "gh-pages": "^6.1.0",
+    "prettier": "^3.2.0",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "vite": "7.3.2",
+    "vite-plugin-singlefile": "2.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
